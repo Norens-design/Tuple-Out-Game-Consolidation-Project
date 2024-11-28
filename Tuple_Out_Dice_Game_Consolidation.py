@@ -7,16 +7,22 @@ def greet(name):
   """This function is to introduce a player."""
   print("Hello, " + name + "Sophia! You will roll first.")
 
+# Output: "Hello, Sophia! You will roll first."
+
+
 def greet(name):
   """This function is to introduce a player."""
   print("Hello, " + name + "Fatima! You will roll after each of Sophia's turns.")
+
+# Output: "Hello, Fatima! You will roll after each of Sophia's turns."
+
 
 # Begin the game with Sophia's play first
 print("Sophia's latest turn is now.")
 
 dice_numbers = (1, 5, 2)
 print(dice_numbers)
-print("Keep playing. 2 points to start off.")
+print("Keep playing. 8 points to start off.")
 
 # Output: (1, 5, 2) 
 # 
@@ -25,7 +31,7 @@ print("Fatima's latest turn is now.")
 
 dice_numbers = (3, 4, 1)
 print(dice_numbers)
-print("Keep playing. 2 points to start off.")
+print("Keep playing. 8 points to start off.")
 
 # Output: (3, 4, 1) 
 #
@@ -34,7 +40,7 @@ print("Sophia's latest turn is now.")
 
 dice_numbers = (1, 1, 4)
 print(dice_numbers)
-print("Fixed dice. -1 points. Must not re-roll a 1 next turn or else Sophia loses.")
+print("Fixed dice. -2 points (6 points for this turn). Must not re-roll a 1 next turn or else Sophia loses.")
 
 # Output: (1, 1, 4)
 #
@@ -43,16 +49,16 @@ print("Fatima's latest turn is now.")
 
 dice_numbers = (2, 5, 5)
 print(dice_numbers)
-print("Fixed dice. -1 points. Must not re-roll a 5 next turn or else Fatima loses.")
+print("Fixed dice. -2 points (10 points for this turn). Must not re-roll a 5 next turn or else Fatima loses.")
 
 # Output: (2, 5, 5) 
 #
 # Start Sophia's play next
 print("Sophia's latest turn is now.")
 
-dice_numbers = (5, 5, 5)
+dice_numbers = (1, 1, 1)
 print(dice_numbers)
-print("Tupled out. 0 points. Sophia loses. Fatima wins.")
+print("Tupled out. 3 points for this turn have become 0 points. Sophia loses. Fatima wins.")
 
-# Output: (5, 5, 5)
+# Output: (1, 1, 1)
 # Game complete.
