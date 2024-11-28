@@ -36,3 +36,5 @@ Just be aware that, in future updates of the game, getting the same number for a
 Plus, this current 1.0 game deducts 2 points of the points earned with each number added in the three dice rolled per turn if there are fixed dice - that's a roll that yields the same number repeated 2/3 dice. That number must be avoided or not rolled in all 3 dice the next turn the player gets. Same point as previous paragraph.
 ----------------------------------------------------------------------------------------------------------
 Have fun! That is the biggest rule in gaming.
+
+Please note that copyright standards apply to this manual.
