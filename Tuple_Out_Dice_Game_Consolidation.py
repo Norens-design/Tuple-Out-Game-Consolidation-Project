@@ -7,6 +7,11 @@ def greet(name):
   """This function is to introduce a player."""
   print("Hello, " + name + "Sophia! You will roll first.")
 
+# Defining function is in a hiccup right now, 
+# So this is another non-concatenated way to say "Hi" below...
+
+print("Hello, Sophia! You will roll first.")
+
 # Output: "Hello, Sophia! You will roll first."
 
 
@@ -16,6 +21,7 @@ def greet(name):
 
 # Output: "Hello, Fatima! You will roll after each of Sophia's turns."
 
+print("Hello, Fatima! You will roll after each of Sophia's turns.")
 
 # Begin the game with Sophia's play first
 print("Sophia's latest turn is now.")
@@ -61,4 +67,5 @@ print(dice_numbers)
 print("Tupled out. 3 points for this turn have become 0 points. Sophia loses. Fatima wins.")
 
 # Output: (1, 1, 1)
+#
 # Game complete.
