@@ -32,4 +32,6 @@ Then, things will alternate and...you have to see for yourself. Just know that g
 Have fun! That is the big rule.
 
 **Big Version Update** 
-There is now a Tuple-Out-Game-Consolidation-Project 2.0 as promised. In this version, you can enter yourself into the game. Simply enter your name when promoted by the code and you will be warmly greeted. 
+There is now a Tuple-Out-Game-Consolidation-Project 2.0 as promised. In this version, you can enter yourself into the game. No more letting Sofia and Fatima have all the fun. Simply enter your name when promoted by the code and you will be warmly greeted. 
+
+Also, 
