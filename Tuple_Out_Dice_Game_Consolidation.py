@@ -1,21 +1,17 @@
 # # # "Tuple Out" Dice Game Consolidation Project
 # ------------------------------------------------
-
-# PATT 6.1: used a "switch"-type `while:` loop to loop until a condition happens
-# PATT 6.2: used `for:` loop over an iterable like a list, tuple, or dictionary
-# PATT 6.3: changed or added results inside a loop (e.g., incrementing/updating a value, appending to a list)
-# PATT 7.1: used a list where a list is appropriate & useful
-# PATT 7.2: used indexing (by index or key) with a list, tuple, or dictionary
-# ------------------------------------------------
 # Fuse pandas into the program
-import pandas as pd
 
-# To demonstrate to real players, create at least 2 fictional people first. 
-# Have them meet for the game.
+# import numpy as np
+# import pandas as pd
+# import matplotlib.pyplot as plt
+# import seaborn as sns
 
-name = "anything"
+# To demonstrate to real players, have at 
+# least 2 fictional people meet for the game.
+name = "^"
+person_to_name = "&"
 name_characters = "a,b,c,d,e..."
-person_to_name = "examples"
 
 # """This function is to introduce a player."""
 def greet(person_to_name, name_characters):
@@ -77,10 +73,6 @@ dice_numbers = (1, 1, 1)
 print(dice_numbers)
 print("Tupled out. 3 points for this turn have become 0 points. Sophia loses. Fatima wins.")
 
-# while less than five turns
-#    continue prompting roll
-# else: end_game
-
 # Loop an end to the round with Sophia and Fatima 
 # after the demo is finished one time.
 # Game complete.
@@ -91,75 +83,96 @@ print("Tupled out. 3 points for this turn have become 0 points. Sophia loses. Fa
 
 # A coin toss also comes in handy for other features. More on that soon.
 
+print("That was a demo. Now, to you, the person watching...")
+
+import random
+
 coin_toss = "probabilistic"
-coin_toss_number = (1,2)
+coin_toss_number = [1,2, "heads", "tails"]
 
-if coin_toss_number is 1:
-    print("You go first.")
+random.choices([1, 2], k = 4)
 
-else: 
-    print("The other player goes first.")
+random.shuffle(coin_toss_number)
+print(coin_toss_number)
+
+counter = 1
+counter = 2
+while counter == 1:
+    if coin_toss_number == 1:
+        print(f"{counter}Heads. You go first.")
+        continue
+    print(f"{counter}Tails. The other player goes first.")
+    counter += 1
+
+while counter == 2:
+    if coin_toss_number == 2:
+        print(f"{counter}Tails. The other player goes first.")
+        continue
+    print(f"{counter}Heads. You go first.")
+    counter += 2
+
+# counter = 2
+# while counter == 2:
+#     if coin_toss_number == 2:
+#         print(f"{counter}Tails. The other player goes first.")
+
+#     else:
+#         print("Heads. You go first.")
 
 # Flipped order is possible depending on which player' perspective is reading.
-# Literally 2 sides of a coin ;)
-
-if coin_toss_number is 2:
-    print("The other player goes first.")
-
-else: 
-    print("You go first.")
+# # Literally 2 sides of a coin ;)
 
 # Have the user input their own names 
 # everytime they run this program once 
 # Sophia and Fatima have "played".
 
-import random
+player_name = input("Greetings. Please type your name.\n")
 
-player_name = input("Greetings. Please type your name.")
-print("Welcome", name(player_name), sep = "")
+type(player_name) 
 
-play_time = input("Tell me the time zone and exact time you are playing in.")
-print()
+print("Welcome: ", player_name, ". You are now in the game!", sep ="")
 
 # Below are combinations to shuffle through later.
 # Combinations of numbers were chosen over single digits
 # to shorten roll process if combinations are pre-set.
 
-dice_numbers[1] = (1-1-1, 2-2-2, 3-3-3, 4-4-4, 5-5-5)
-dice_numbers[2] = (1-2-3, 1-2-4, 1-2-5, 1-3-4, 1-3-5)
-dice_numbers[3] = (1-1-2, 1-1-3, 1-1-4, 1-1-5)
-dice_numbers[4] = (2-2-1, 2-2-3, 2-2-4, 2-2-5)
-dice_numbers[5] = (2-3-4, 2-3-5, 2-4-5, 3-4-5)
-dice_numbers[6] = (3-3-1, 3-3-2, 3-3-4, 3-3-5)
-dice_numbers[7] = (4-4-1, 4-4-2, 4-4-3, 4-4-5)
-dice_numbers[8] = (5-5-1, 5-5-2, 5-5-3, 5-5-4)
 
+# Employ a mixed list below:
+
+game_events = ["first_roll", "five", "fixed_dice", "last_roll", 1, "tuple_defeat", 2, 3, "tuple-less_victory"]
+
+dice_numbers = (1, 2, 3, 4, 5)
+
+random.choices([1, 2, 3, 4, 5], k = 3)
 
 random.shuffle(dice_numbers)
 print(dice_numbers)
 
-clock_timer = "minutes = [1]", "seconds = [2]"
+import time
 
-counter = clock_timer[1] = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16)
-clock_timer[2] = (10, 20, 30, 40, 50, 60)
+numbers = input("How many numbers should I print out?")
+print("processing")
+numbers = int(numbers)
+
+print("starting the loop now")
+for num in range(numbers):
+    print(f"here's the number {num}")
+
+clock_timer = ("minutes = [1]", "seconds = [2]")
+
+counter = clock_timer[1] = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,...)
 
 for counter in range(16, 60):
     print(f"the counter variable is now {counter}")
 
+clock_timer[2] = (10, 20, 30, 40, 50, 60)
 
-# count_forward: 
-# every_minute:
+now = time.localtime()
+type(now)
+print(now)
+now[0]
+now[1]
 
-# while clock_timer[1] > 16: 
-#     count_forward
-
-# else: 
-#     print()
-
-import time
-
-time.sleep() 
 time.process_time()
-time.localtime()
 time.strftime()
-time.strptime()
+time.strptime("December 17, 2024, 9:58:58 PM", "%B %d, %Y, %I:%M:%S %p")
