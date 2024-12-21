@@ -34,4 +34,4 @@ Have fun! That is the big rule.
 **Big Version Update** 
 There is now a Tuple-Out-Game-Consolidation-Project 2.0 as promised. In this version, you can enter yourself into the game. No more letting Sofia and Fatima have all the fun. Simply enter your name when promoted by the code and you will be warmly greeted. 
 
-Also, 
+Also, there is a time slowing of the demo lines introduced to allow you to process it all before you go off on your own adventures.
