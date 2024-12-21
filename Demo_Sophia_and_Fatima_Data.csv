@@ -1,0 +1,10 @@
+Dice Game Players,       Turn Order,        Score Per Turn,         Number of Fixed Dice,         Number of Tuples,         Number of Safe Rolls
+Sophia,                  1st,               8,                      1,                            1,                        1
+Fatima,                  2nd,               8,                      1,                            0,                        1        
+Sophia,                  3rd,               6,
+Fatima,                  4th,               10,
+Sophia,                  5th,               3,  
+
+                         Max Score Per Turn,               Min Score Per Turn,                Avg Score
+Sophia,                  8,                                3,                                 
+Fatima,                  10,                               8,
