@@ -226,9 +226,11 @@ the_new_dice_set = tuple(the_list)
 
 print(the_new_dice_set) # Output: (1, 2, 3, 4, 5)
 
+dice_numbers = random.sample([1, 2, 3], k = 3)
+dice_numbers = random.choices(range(1, 5), k = 29)
 
-random.choices([1, 2, 3, 4, 5], k = 3)
 
+dice_numbers = [1, 2, 3, 4, 5]
 random.shuffle(dice_numbers)
 print(dice_numbers)
 
