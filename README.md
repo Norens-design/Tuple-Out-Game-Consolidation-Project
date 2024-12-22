@@ -38,6 +38,6 @@ Prior to that, there will be a simple "coin toss' held to decide who goes first.
 
 Once let in, you should be able to roll dice and get three numbers at a time at random as Sophia and Fatima were shown to have done earlier.
 
-This guide is incomplete unless there is talk of a new fun feature to let you see your score data as a table; it is currently in beta testing. You will see an analysis for Sophia and Fatima before we launch the once made to assess your results custom-made. Right now work is underway to refine this feature before you get an analysis/overview of your game stats. Keep looking forward to bigger and brighter versions soon!
+This guide is incomplete unless there is talk of a new fun feature to let you see your score data as a table; it is currently in beta testing. You will see an analysis for Sophia and Fatima before the launch of the ones designed to assess your results and customize their findings according to your situation as you roll. Right now, work is underway to refine this feature before you get an analysis/overview of your game stats. Keep looking forward to bigger and brighter versions soon!
 
 Also, there is a time slowing of the demo lines introduced to allow you to process it all before you go off on your own adventures.
