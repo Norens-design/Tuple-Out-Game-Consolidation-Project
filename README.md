@@ -34,4 +34,8 @@ Have fun! That is the big rule.
 **Big Version Update** 
 There is now a Tuple-Out-Game-Consolidation-Project 2.0 as promised. In this version, you can enter yourself into the game. No more letting Sofia and Fatima have all the fun. Simply enter your name when promoted by the code and you will be warmly greeted. 
 
+Prior to that, there will be a simple "coin toss' held to decide who goes first. If you are playing by yourself, you are both "you" and "the other player", so win-win before you even play any game. 
+
+Once let in, you should be able to roll dice and get three numbers at a time at random as Sophia and Fatima were shown to have done earlier.
+
 Also, there is a time slowing of the demo lines introduced to allow you to process it all before you go off on your own adventures.
