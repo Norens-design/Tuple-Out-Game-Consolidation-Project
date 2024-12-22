@@ -126,22 +126,27 @@ demo_results.head()
 demo_results.columns
 
 demo_results = demo_results.rename(columns =
-                        {'Demo player' : "demo player",
-                         'Dice Game Players' : "players",
+                        { 'Dice Game Players' : "players",
                          'Turn Order' : "turn order",
                          'Score Per Turn' : "score per turn",
                          'Number of Fixed Dice' : "fixed dice",
                          'Number of Tuples' : "tuples",
-                         'Number of Safe Rolls' : "safe rolls",})
-
+                         'Number of Safe Rolls' : "safe rolls",
+                         'Max Score Per Turn' : "max score per turn",
+                         'Min Score Per Turn' : "min score per turn",
+                         'Average Score' : "average score"
+})
 
 demo_results.head()
 # Further breakdown of the example you saw 
 # Future versions will do these for your scores too. Get excited.
-max_score_per_turn = max(demo_results["avg score"])
-min_score_per_turn = min(demo_results["avg score"])
-demo_results["demo player"][demo_results["avg score"] == max_score_per_turn]
-demo_results["demo player"][demo_results["avg score"] == min_score_per_turn]
+# max_score_per_turn = max(demo_results["avg score"])
+# min_score_per_turn = min(demo_results["avg score"])
+
+# demo_results["demo player"][demo_results["avg score"] == max_score_per_turn]
+# demo_results["demo player"][demo_results["avg score"] == min_score_per_turn]
+### These items above are experiencing error messages, 
+# so will be suppreessed until I solve the issue.
 
 
 
@@ -157,7 +162,7 @@ print("That was a demo. Now, to you, the person watching...")
 import random
 
 coin_toss = "probabilistic"
-coin_toss_number = [1,2, "heads", "tails"]
+coin_toss_number = [1, "heads", 2, "tails"]
 
 random.choices([1, 2], k = 4)
 
@@ -205,7 +210,22 @@ game_events = ["first_roll", "five", "fixed_dice", "last_roll", 1, "tuple_defeat
 print(game_events)
 
 
-dice_numbers = (1, 2, 3, 4, 5)
+# dice_numbers = (1, 2, 3, 4, 5) # encountered situation where this was stopped for error,
+# so had to turn to list then tuple again
+
+dice_numbers = (1)
+
+the_list = list(dice_numbers)
+
+the_list.append(2)
+the_list.append(3)
+the_list.append(4)
+the_list.append(5)
+
+the_new_dice_set = tuple(the_list)
+
+print(the_new_dice_set) # Output: (1, 2, 3, 4, 5)
+
 
 random.choices([1, 2, 3, 4, 5], k = 3)
 
@@ -214,11 +234,11 @@ print(dice_numbers)
 
 numbers = input("How many numbers should I print out?")
 print("processing")
-numbers = int(numbers)
+numbers = int(dice_numbers)
 
 print("starting the loop now")
-for num in range(numbers):
-    print(f"here's the number {num}")
+for num in range(dice_numbers):
+    print(f"here's the number {dice_numbers}")
 
 clock_timer = ("minutes = [1]", "seconds = [2]")
 
