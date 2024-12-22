@@ -234,10 +234,6 @@ dice_numbers = [1, 2, 3, 4, 5]
 random.shuffle(dice_numbers)
 print(dice_numbers)
 
-numbers = input("How many numbers should I print out?")
-print("processing")
-numbers = int(dice_numbers)
-
 print("starting the loop now")
 for num in range(dice_numbers):
     print(f"here's the number {dice_numbers}")
