@@ -126,7 +126,7 @@ demo_results.head()
 demo_results.columns
 
 demo_results = demo_results.rename(columns =
-                        { 'Dice Game Players' : "players",
+                        {'Dice Game Players' : "players",
                          'Turn Order' : "turn order",
                          'Score Per Turn' : "score per turn",
                          'Number of Fixed Dice' : "fixed dice",
